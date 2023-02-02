@@ -5,7 +5,7 @@ b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 */
 
 
-double[] peresechenie(int b1,int k1,int b2, int k2){
+double[] peresechenie(double b1,double k1,double b2, double k2){
     double[] ret={0,0};
     ret[0]=(b2-b1)/(k1-k2);
     ret[1]=k1*ret[0]+b1;
